@@ -1,0 +1,117 @@
+h1 {
+  font-family: 'Rammetto One', cursive;
+  font-size: 600%;
+  color: #247BA0;
+  text-shadow: 4px 2px 4px #000;
+}
+
+h2 {
+  font-family: 'Fontdiner Swanky', cursive;
+  font-size: 200%;
+  color: #011627;
+}
+
+#content {
+  
+}
+
+#header {
+  margin: 30px 0 30px 0;
+  text-align: center;
+}
+
+body {
+  background: #50514F;
+}
+
+.circle-top-left {
+ height: 200px;
+ width: 200px;
+  border: 10px solid black;
+ -moz-border-radius: 200px 0 0 0;
+ border-radius: 200px 0 0 0;
+}
+
+.circle-top-right {
+ height: 200px;
+ width: 200px;
+  border: 10px solid black;
+ -moz-border-radius: 0 200px 0 0 ;
+ border-radius: 0 200px 0 0 ;
+}
+
+.circle-bottom-right {
+ height: 200px;
+ width: 200px;
+  border: 10px solid black;
+ -moz-border-radius: 0 0 200px 0;
+ border-radius: 0 0 200px 0;
+}
+
+.circle-bottom-left {
+ height: 200px;
+ width: 200px;
+  border: 10px solid black;
+ -moz-border-radius: 0 0 0 200px;
+ border-radius: 0 0 0 200px;
+}
+
+#green {
+  background: #004400;
+}
+#blue {
+  background: #000044;
+}
+#red {
+  background: #440000;
+}
+#yellow {
+  background: #444400;
+}
+
+#control {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #CCC;
+  border-radius: 100%; 
+  margin: 100px 0 0 -100px;
+  border: 20px solid black;
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+}
+
+p {
+  font-size: 300%;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#power {
+  background: red;
+  color: black;
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+.btn-circle {
+  background-color: #aaa;
+  color: black;
+  display:inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  padding:0;
+  border-radius: 50%;
+  text-align: center;
+}
+
+#display {
+  color: black;
+}
+
+.btn-active {
+  border: 3px solid;
+  font-weight: bold;
+}
